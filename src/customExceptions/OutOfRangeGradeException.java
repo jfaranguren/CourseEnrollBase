@@ -1,6 +1,5 @@
 package customExceptions;
 
-@SuppressWarnings("serial")
 public class OutOfRangeGradeException extends IllegalArgumentException{
 	public final static String OVER_EXCEED = "OVER EXCEED";
 	public final static String UNDER_EXCEED = "UNDER EXCEED";
@@ -44,3 +43,4 @@ public class OutOfRangeGradeException extends IllegalArgumentException{
 		return typeOfOut;
 	}
 }
+
