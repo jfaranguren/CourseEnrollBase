@@ -54,7 +54,7 @@ public class Main {
 				case 2:
 					System.out.println("Please enter the student id to unenroll: ");
 					id = sc.nextLine();
-					myCourse.cancelEnrollment(id); //does this method throw an exception? why compile with no problem?
+					myCourse.cancelEnrollment(id); //does this method throw an exception? why does it compile with no problems?
 					System.out.println("Student has been unenrolled");
 				break;
 				case 3:
@@ -81,3 +81,4 @@ public class Main {
 		sc.close();
 	}
 }
+
