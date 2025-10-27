@@ -1,6 +1,5 @@
 package customExceptions;
 
-@SuppressWarnings("serial")
 public class QuotaEnrollExceedException extends Exception{
 	private int quota;
 	
@@ -13,3 +12,4 @@ public class QuotaEnrollExceedException extends Exception{
 		return quota;
 	}
 }
+
