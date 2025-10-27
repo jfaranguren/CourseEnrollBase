@@ -5,6 +5,7 @@ public class Student {
 	private double[] grades;
 	
 	public Student(String identifier, int totalGrades) {
+		id = identifier;
 		grades = new double[totalGrades];
 	}
 	
@@ -20,3 +21,4 @@ public class Student {
 		return id;
 	}
 }
+
